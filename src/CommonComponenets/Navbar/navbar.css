@@ -1,0 +1,89 @@
+.navbar{
+    width: 100%;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    background-color: rgb(184,229,229);
+}
+
+.imgLogoNav{
+    width: 50px;
+    height: 50px;
+    margin-left: 30px;
+    height: 60px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.name{
+    color: rgb(93, 0, 255);
+    font-style:oblique;
+    font-weight: 600;
+    font-size: 25px;
+    margin-right: 40%;
+    
+
+}
+
+.rightside{
+    display: flex;
+    height: 100%;
+}
+ 
+.firstrightNavbar{
+    margin: 0px 20px;
+    font-size: 17px;
+    border: 1px solid rgb(184,229,229);
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    width: 120px;
+    font-weight: 700;
+    cursor: pointer;
+    background: linear-gradient(#3ac6bc 0 0) var(--p,0) / var(--p,0) no-repeat;
+    transition: 0.5s, background-position 0s;
+    border-radius: 5px;
+    position: relative;
+    text-decoration: none;
+    color: black;
+
+}
+.firstrightNavbar:hover{
+    background-color: rgb(12,187,187);
+    --p:100%;
+    color:#000000;
+
+}
+
+
+.addtestModal{
+    position: absolute;
+    top: 100%;
+    right:0%;
+    background-color: whitesmoke;
+    box-shadow: 0 0 5px #999;
+    width: 350px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.inputAddtestmodal{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.inputaddTestlabel{
+    font-size: 15px;
+}
+.createaddTest{
+    width: 80px;
+    border: 1px solid;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.createaddTest:hover{
+    background-color: #3ac6bc;
+}
